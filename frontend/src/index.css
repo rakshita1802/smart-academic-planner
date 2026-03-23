@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #0f172a;
+  color: white;
+}
+
+/* Container */
+.container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* Title */
+.title {
+  text-align: center;
+  color: #38bdf8;
+  margin-bottom: 20px;
+}
+
+/* Top section */
+.top-section {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+/* Grid layout */
+.main-grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 20px;
+}
+
+/* Panels */
+.left-panel,
+.right-panel {
+  background: #1e293b;
+  padding: 20px;
+  border-radius: 12px;
+}
+
+/* Inputs */
+input, select, button {
+  width: 100%;
+  margin: 8px 0;
+  padding: 10px;
+  border-radius: 6px;
+  border: none;
+}
+
+/* Button */
+button {
+  background: #3b82f6;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  background: #2563eb;
+}
+
+/* Task Cards */
+.task-card {
+  border-radius: 10px;
+  padding: 12px;
+  margin-bottom: 10px;
+}
